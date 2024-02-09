@@ -10,6 +10,8 @@ import QRCodeGenerator from "./components/qr-code-generator/index.jsx";
 import LightDarkMode from "./components/light-dark-mode/index.jsx";
 import ScrollIndicator from "./components/scroll-indicator/index.jsx";
 import TabTest from "./components/custom-tabs/tab-test.jsx";
+
+import GithubProfileFinder from "./components/github-profile -find/index.jsx";
 import ModalTest from "./components/custom-modal-popup/modal-test.jsx";
 
 function App() {
@@ -49,8 +51,10 @@ function App() {
       {/* Custom tabs Components */}
       {/* <TabTest /> */}
 
-        {/* Custom Modal Components */}
-      <ModalTest />
+       
+
+       {/* Custom Modal Components */}
+       <ModalTest />
        
     </div>
   );
