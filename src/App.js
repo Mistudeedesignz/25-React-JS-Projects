@@ -1,16 +1,20 @@
 import "./App.css";
-import Accordian from "./components/accordian";
-import RandomColor from "./components/random-color";
-import StarRating from "./components/star-rating";
-import ImagesSlider from "./components/image-slider";
-import LoadMoreData from "./components/load-more-data";
-import TreeView from "./components/tree-view";
-import menus from "./components/tree-view/data.js";
-import QRCodeGenerator from "./components/qr-code-generator/index.jsx";
-import LightDarkMode from "./components/light-dark-mode/index.jsx";
-import ScrollIndicator from "./components/scroll-indicator/index.jsx";
-import TabTest from "./components/custom-tabs/tab-test.jsx";
-import ModalTest from "./components/custom-modal-popup/modal-test.jsx";
+// import Accordian from "./components/accordian";
+// import RandomColor from "./components/random-color";
+// import StarRating from "./components/star-rating";
+// import ImagesSlider from "./components/image-slider";
+// import LoadMoreData from "./components/load-more-data";
+// import TreeView from "./components/tree-view";
+// import menus from "./components/tree-view/data.js";
+// import QRCodeGenerator from "./components/qr-code-generator/index.jsx";
+// import LightDarkMode from "./components/light-dark-mode/index.jsx";
+// import ScrollIndicator from "./components/scroll-indicator/index.jsx";
+// import TabTest from "./components/custom-tabs/tab-test.jsx";
+
+
+// import ModalTest from "./components/custom-modal-popup/modal-test.jsx";
+import GithubProfileFind from "./components/github-profile-finder/index.jsx";
+
 
 function App() {
   return (
@@ -49,8 +53,12 @@ function App() {
       {/* Custom tabs Components */}
       {/* <TabTest /> */}
 
-        {/* Custom Modal Components */}
-      <ModalTest />
+       
+       {/* Custom Modal Components */}
+       {/* <ModalTest /> */}
+
+       {/* Github Profile Finder Components */}
+       <GithubProfileFind />
        
     </div>
   );
