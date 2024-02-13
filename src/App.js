@@ -1,4 +1,5 @@
 import "./App.css";
+import SearchAutocomplete from "./components/search-autocomplete-with-api";
 // import Accordian from "./components/accordian";
 // import RandomColor from "./components/random-color";
 // import StarRating from "./components/star-rating";
@@ -13,7 +14,7 @@ import "./App.css";
 
 
 // import ModalTest from "./components/custom-modal-popup/modal-test.jsx";
-import GithubProfileFind from "./components/github-profile-finder/index.jsx";
+// import GithubProfileFind from "./components/github-profile-finder/index.jsx";
 
 
 function App() {
@@ -58,7 +59,10 @@ function App() {
        {/* <ModalTest /> */}
 
        {/* Github Profile Finder Components */}
-       <GithubProfileFind />
+       {/* <GithubProfileFind /> */}
+
+       {/* Search Autocomplete */}
+       <SearchAutocomplete />
        
     </div>
   );
