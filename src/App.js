@@ -1,5 +1,6 @@
 import "./App.css";
-import SearchAutocomplete from "./components/search-autocomplete-with-api";
+// import SearchAutocomplete from "./components/search-autocomplete-with-api";
+import TicTacToe from "./components/tic-tac-toe";
 // import Accordian from "./components/accordian";
 // import RandomColor from "./components/random-color";
 // import StarRating from "./components/star-rating";
@@ -62,7 +63,10 @@ function App() {
        {/* <GithubProfileFind /> */}
 
        {/* Search Autocomplete */}
-       <SearchAutocomplete />
+       {/* <SearchAutocomplete /> */}
+
+      {/* Tic Tac Toe */}
+       <TicTacToe/>       
        
     </div>
   );
