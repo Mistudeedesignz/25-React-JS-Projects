@@ -1,6 +1,11 @@
 import "./App.css";
+// import FeatureFlags from "./components/feature-flag";
+// import FeatureFlagGlobalState from "./components/feature-flag/context";
+// import UseFetchHookTest from "./components/use-fetch/test";
+import UseOnclickOutsideTest from "./components/use-outside-click/test";
+// import UseWindowResizeTest from "./components/use-window-resize/test";
 // import SearchAutocomplete from "./components/search-autocomplete-with-api";
-import TicTacToe from "./components/tic-tac-toe";
+// import TicTacToe from "./components/tic-tac-toe";
 // import Accordian from "./components/accordian";
 // import RandomColor from "./components/random-color";
 // import StarRating from "./components/star-rating";
@@ -12,8 +17,6 @@ import TicTacToe from "./components/tic-tac-toe";
 // import LightDarkMode from "./components/light-dark-mode/index.jsx";
 // import ScrollIndicator from "./components/scroll-indicator/index.jsx";
 // import TabTest from "./components/custom-tabs/tab-test.jsx";
-
-
 // import ModalTest from "./components/custom-modal-popup/modal-test.jsx";
 // import GithubProfileFind from "./components/github-profile-finder/index.jsx";
 
@@ -21,8 +24,8 @@ import TicTacToe from "./components/tic-tac-toe";
 function App() {
   return (
     <div className="App">
-      {/* "Accordian Component" */}
-      {/* <Accordian /> */}
+     {/* "Accordian Component"  */}
+       {/* <Accordian /> */}
 
       {/* "Random color component" */}
       {/* <RandomColor /> */}
@@ -66,8 +69,24 @@ function App() {
        {/* <SearchAutocomplete /> */}
 
       {/* Tic Tac Toe */}
-       <TicTacToe/>       
-       
+       {/* <TicTacToe/>   */}
+
+       {/* Feature Flag Implementation */}
+       {/* <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState>   */}
+
+      {/* useEffect: Custom Hook */} 
+      {/* <UseFetchHookTest /> */}
+
+       {/* Use Onclick Outside Custom Hook */}
+       <UseOnclickOutsideTest />
+
+        {/* Use Window Resize Hook Test */}
+        {/* <UseWindowResizeTest /> */}
+
+
+
     </div>
   );
 }
