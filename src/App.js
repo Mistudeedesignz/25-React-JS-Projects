@@ -1,8 +1,10 @@
 import "./App.css";
+// import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
+import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
 // import FeatureFlags from "./components/feature-flag";
 // import FeatureFlagGlobalState from "./components/feature-flag/context";
 // import UseFetchHookTest from "./components/use-fetch/test";
-import UseOnclickOutsideTest from "./components/use-outside-click/test";
+// import UseOnclickOutsideTest from "./components/use-outside-click/test";
 // import UseWindowResizeTest from "./components/use-window-resize/test";
 // import SearchAutocomplete from "./components/search-autocomplete-with-api";
 // import TicTacToe from "./components/tic-tac-toe";
@@ -80,11 +82,17 @@ function App() {
       {/* <UseFetchHookTest /> */}
 
        {/* Use Onclick Outside Custom Hook */}
-       <UseOnclickOutsideTest />
+       {/* <UseOnclickOutsideTest /> */}
+       
 
         {/* Use Window Resize Hook Test */}
         {/* <UseWindowResizeTest /> */}
+    
+      {/* Scroll to Top and Bottom */}
+        {/* <ScrollToTopAndBottom /> */}
 
+        {/* Scroll to a Particular Section */}
+        <ScrollToSection />
 
 
     </div>
